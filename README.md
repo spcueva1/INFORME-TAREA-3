@@ -16,6 +16,7 @@ Objetivos específicos:
 Resistores en serie
 Una resistencia esta conectada a continuación de la otra. 
 
+![](tarea_3/Re_1.png)
 
 Recuerde que, si entre dos puntos existe sólo una trayectoria para la corriente, los resistores ubicados entre esos dos puntos están en serie, no importa cómo aparezcan en un diagrama.
 Corriente en un circuito en serie
@@ -28,10 +29,12 @@ Aplicación de la ley de Ohm
 La polaridad de una caída de voltaje entre los extremos de un resistor es positiva en el extremo del resistor que está más cercano a la terminal positiva de la fuente de voltaje.
 Se define que la corriente a través de un resistor circula en la dirección que va del extremo positivo del resistor al extremo negativo.
 
-
+![](tarea_3/Re_2.png)
 
 Fuentes de voltaje en serie
 Cuando dos o más fuentes de voltaje están en serie, el voltaje total es igual a la suma algebraica de los voltajes de fuente individuales.
+ 
+ ![](tarea_3/Re_3.png)
  
 Cuando todas las fuentes de voltaje están en la misma dirección en cuanto a sus polaridades
 VAB = 1.5 V + 1.5 V + 1.5 V = +4.5 V
@@ -41,10 +44,13 @@ Ley del voltaje de Kirchhoff
 la suma algebraica de todos los voltajes localizados en una sola trayectoria cerrada es cero o, en otras palabras, que la suma de las caídas de voltaje es igual al voltaje de fuente total.
 VS = V1 + V2 + V3 + …. + VN
  
+![](tarea_3/Re_4.png)
+
 Divisores de voltaje
 Un circuito compuesto a partir de una serie de resistores conectada a una fuente de voltaje actúa como divisor de voltaje
 
-	
+
+![](tarea_3/Re_5.png)
 
 
 
@@ -63,6 +69,8 @@ CIRCUITOS EN PARALELO
 Resistores en paralelo
 Todos los puntos ubicados a lo largo de la parte superior en gris son, eléctricamente, el mismo punto que el punto A, y todos los puntos localizados a lo largo de la parte inferior son, eléctricamente, el mismo punto que el punto B.
  
+ ![](tarea_3/Re_6.png)
+ 
 Voltaje en un circuito en paralelo 
 El voltaje es el mismo en cualquier componente conectado en paralelo. 
 V1 = V2 = V3 = V4 = V5=Vn = Vs
@@ -70,11 +78,15 @@ Ley de las corrientes de Kirchhoff
 Cada trayectoria para la corriente se denomina rama, y un circuito en paralelo es uno que tiene más de una rama.
 IT = I1 + I2 + I3 + In
  
+![](tarea_3/Re_7.png)
+
 Resistencia total en paralelo 
 La resistencia total del circuito es igual a la inversa de la suma de las inversas de las resistencias que hay en el circuito
  
 Fuentes de corriente en paralelo 
 La corriente total producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes de corriente individuales. La suma algebraica implica que se debe considerar la dirección de la corriente cuando se combinan las fuentes en paralelo.
+ 
+![](tarea_3/Re_8.png)
  
 IT = 1 A + 2 A + 2 A = 5 A
 IT = 2 A + 2 A - 1 A = 3 A
@@ -87,6 +99,7 @@ Fórmula para determinar la potencia total en una forma concisa para cualquier c
 PT = P1 + P2 + P3 + … + Pn
 para calcular la potencia total:
  
+![](tarea_3/Re_9.png)
 
 3)Explicacion y resolucion de ejercicios.
 
