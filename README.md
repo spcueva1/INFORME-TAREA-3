@@ -215,7 +215,7 @@ Vt = 5 V+9 V = 14 V
 
 29. Determine el voltaje de fuente total en cada circuito de la figura 5-79.
 
-![](tarea_3/ejer_29.png)
+![](tarea_3/ejer_29_r.png)
 
 a) Las fuentes están conectadas hacia la misma polaridad,por lo tanto:
 Vt=(10+5+8)V=23 V
@@ -230,14 +230,14 @@ V5=Vt-V1-V2-V3-V4
 V5=(20-1.5-5.5-3-6)V=4V
 33. En el circuito de la figura 5-81, determine la resistencia de R4.
 
-![](tarea_3/ejer_33.png)
+![](tarea_3/ejer_33_r.png)
 
 (5.4 V)/(27 )=(4.4 V)/R4
 R4=(27Ω*4.4 V)/(5.4 V)=22 Ω
 35. Determine el voltaje a través de R5 para cada una de las posiciones del interruptor de la figura 5-83. La
 corriente en cada posición es como sigue: A, 3.35 mA; B, 3.73 mA; C, 4.50 mA; D, 6.00 mA.
 
-![](tarea_3/ejer_35.png)
+![](tarea_3/ejer_35_r.png)
 
 3.35 mA=(18 V)/(1800+1000+820+560+R5)Ω
 3.35*10^(-3)  (4180)+3.35R5=18V
