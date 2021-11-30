@@ -581,7 +581,14 @@ Es la suma en paralelo de las resistencias R1, R2, R3, R4, R11, R12.
 
 5)Conclusiones
 
+-Se analizaron los circuitos en serie, con uso de las leyes de Ohm y Kirchhoff, así se lograron resolver los problemas en circuitos eléctricos.
+
+- El calculo de los circuitos mixtos y sus distintos elementos, se simplifica con el divisor de voltaje o corriente, las cuales son formulas para encontrar la intensidad y voltaje mediante otras variables.
+
+- Realizamos los ejercicios propuestos del libro lo cuál aplicamos la ley de Kirchhoff en los circuitos serie y paralelo para calcular lo propuesto en dicha pregunta.
 
 6)Bibliografia
+
+Floyd, T. (2007). Voltaje, corriente y resistencia. En L. M. Cruz Castillo (Ed.), Principios de Circuitos Eléctricos (VIII ed., pp. 16-71). Pearson Educación. Floyd, T. (2007). Cantidades y unidades. En L. M. Cruz Castillo (Ed.), Principios de Circuitos Eléctricos (VIII ed., pp. 1-15). Pearson Educación Abreu, R. (2005). Fuentes de alimentación conmutadas. El1313-Electrónica III 2005, 4,5. http://www.el.bqto.unexpo.edu.ve/rabreu/Electronica3/Clase9.pdf
 
 
