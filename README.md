@@ -385,7 +385,6 @@ Capítulo 6
 3) R3 y R11
 5. El voltaje de fuente en la figura 6-67 es de 100 V. ¿Cuánto voltaje lee cada uno de los medidores?
 
-![](tarea_3/ejer_5_c.png)
 
 Todas las resistencias se encuentran en paralelo por lo que los medidores de voltaje marcan 100v
 7. ¿Cuál es el voltaje entre los extremos de cada resistor incluido en la figura 6-68 para cada posición del interruptor?
@@ -394,7 +393,9 @@ Todas las resistencias se encuentran en paralelo por lo que los medidores de vol
 
 VA=15V Ya que la R1 y R4 están en paralelo
 VB=15V Ya que la R1 y R3 están en paralelo (si la posición del interruptor está en b)
+
 VC=15V Ya que la R1 y R2 están en paralelo (si la posición del interruptor está en c)
+
 9. Se leen las siguientes corrientes en la misma dirección en un circuito de tres ramas en paralelo: 250 mA, 300 mA y 800 mA. ¿Cuál es el valor de la corriente que llega a la unión de las tres ramas?
 IENTRADA=ISALIDA
 IENTRADA= 250mA+300mA+800mA=1350mA= 1,35 A
@@ -406,11 +407,172 @@ IENTRADA= 250mA+300mA+800mA=1350mA= 1,35 A
 VR1+VR2=0, (2,14mA-1mA)47Ω+(2,14mA-0,470mA) R2=0, R2=22Ω
 VR2+VR3=0, (0,470mA-2,14mA) 22Ω +(0,470mA-1,42mA) R3=0, R3= 100Ω
 VR3+VR4=0, (I4-I3) 100Ω+I4*R4=0, (1,42mA-0,470mA) 100Ω+1,42mA*R4=0, R4=33Ω
-* 13. La resistencia total de un circuito en paralelo es de 25Ω. ¿Cuál es la corriente a través de un resistor de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA?
+
+13. La resistencia total de un circuito en paralelo es de 25Ω. ¿Cuál es la corriente a través de un resistor de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA?
 RTOTAL=25Ω
 Ix =(RT/RX) IT, Ix=(25Ω/220Ω) 100 mA, Ix=0,0113A
 I=11.4 mA
 
+
+15.-Encuentre la resistencia total de cada uno de los siguientes grupos de resistores en paralelo:
+a) 560 Ω y 1000 Ω
+
+Req= 1/ (1/560+1/1000) = 358.9743 Ω
+
+b) 47 Ω y 56 Ω
+
+Req= 1/ (1/47+1/56) =  25.553 Ω
+
+c) 1.5 kΩ, 2.2k Ω, 10 kΩ
+
+Req= 1/(1/1.5k+1/2.2k+1/10k) = 0.8188 kΩ
+
+d) 1 MΩ, 470 kΩ, 1kΩ, 2.7 MΩ
+
+Req= 1/(1/1M+1/470k+1/1k+1/2.7M) = 730.28 kΩ
+
+17.- ¿Cuál es la resistencia total de doce resistores de 6.8 kΩ dispuestos en paralelo?
+
+RT=12/(1/6.8)= 81.6kΩ
+
+19.- Encuentre la resistencia total de todo el circuito en paralelo descrito en el problema 18.
+RT=1/((5/(1/470))+(12/(1/100))
+RT= 0.2816 kΩ
+21.- ¿Cuál es la resistencia total entre el punto A y tierra en la figura 6-72 en las siguientes condiciones?
+
+![](tarea_3/ejer_21.png)
+
+(a) SW1 y SW2 abiertos
+
+ RT=1/(1/510k)= 510kΩ
+
+
+(b) SW1 cerrado, SW2 abierto
+
+RT=1/(1/510K + 1/470K) = 244.59 KΩ
+
+(c) SW1 abierto, SW2 cerrado 
+
+RT=1/(1/510k)= 510kΩ
+
+(d) SW1 y SW2 cerrados
+
+RT=1/(1/510k + 1/470k + 1/910k)= 192.77 kΩ
+
+23.- Tres resistores de 33Ω están conectados en paralelo con una fuente de 110 V. ¿Cuál es la corriente suministrada por la fuente?
+RT=3/(1/33)= 99Ω
+I=110/99= 1.1111 A
+
+25.- Muchos tipos de luces decorativas están conectados en paralelo. Si se conecta un juego de luces a una fuente de 110 V y si la resistencia en caliente del filamento de cada foco es de 2.2kΩ, ¿cuál es la corriente a través de cada foco? ¿Por qué es mejor tener estos focos en paralelo y no en serie?
+
+La corriente dependerá de el numero de focos conectados por lo que la corriente se disipará o se divide en cada uno de los focos por lo tanto sería una corriente muy baja en cada uno.
+I=110/2.2k= 50mA se dividirá en todos los focos, por lo tanto, esta se usa en paralelo para que todos los focos tengan la misma cantidad de voltaje o energía para encenderse por otro lado si lo conectamos en serie existe una caída de tensión o un bajo voltaje hasta llegar al último foco.
+
+27.- ¿A qué valor mínimo se puede ajustar el reóstato de 100 Æ mostrado en la figura 6-75 antes de que el fusible de 0.5 A se funda?
+
+![](tarea_3/ejer_27.png)
+
+RT=15/0.5=30Ω
+Si el reóstato baja mas de los 30Ω el fusible se fundirá, porque alcanza niveles de corriente elevados a 0.5 A.
+
+29.- Encuentre los valores de las cantidades no especificadas en la figura 6-77.
+
+![](tarea_3/ejer_29.png)
+
+Req1=100/250mA= 0.4k Ω
+1/0.4k=1/1.2k + 1/R2
+R2=0.6k
+I2=100/0.6k= 166.66mA
+I3=100/1.2k= 83.33mA
+R1=100/50m= 2 kΩ
+RT=1/(1/2k + 1/0.6k + 1/1.2k)
+RT=0.333 kΩ
+IT=100/0.333k= 300mA
+
+31.- Determine la corriente a través del resistor para cada una de las posiciones de interruptor calibradas en la figura 6-79.
+
+![](tarea_3/ejer_31.png)
+
+Cuando esta la posición: 
+C-C la resistencia tiene 8mA
+B-B la resistencia tiene 4.75mA
+A-A la resistencia tiene 2.25mA
+
+33.- Determine la corriente en cada uno de los divisores de corriente mostrados en la figura 6-81.
+
+![](tarea_3/ejer_33.png)
+
+Circuito 1
+IR2=(R2/R1+R2)
+IR2=(2.2M/1+2.2)*10µA= 6.8kΩ
+IR1=(1/2.2+1)*10 µA= 3.125kΩ
+RT=1/(1/2.2M + 1/1M)= 0.68 MΩ
+Circuito 2
+IR1=(2.2K/1+2.2)*10mA= 6.8Ω
+IR2=(1/1+2.2)*10mA= 3.123Ω
+IR3=(3.3/3.3+6.8)*10mA= 3.2673Ω
+IR4=(6.8/3.3+6.8)*10mA= 6.7326Ω
+RT=1/(1/1k + ½.2k + 1/3.3k + 1/6.8)=0.5250 kΩ
+
+35.- Determine todos los valores de resistor en la figura 6-83. RT=773 Ω
+![](tarea_3/ejer_35.png)
+
+RT=773 Ω
+Vs=0.01553A*773Ω =12 V
+I3=2.14mA
+R1=12/3.64=3.2 kΩ
+R2=12/6.67= 1.79 kΩ
+R3=12/2.14= 5.60 kΩ
+R4=12/3.08= 3.89 kΩ
+ 37.- En el mercado están disponibles resistores en derivación especialmente diseñados para detectar caídas de voltaje de 50 mV en aplicaciones de medición de corrientes altas. Se conecta un voltímetro de 50 mV, 10 kΩ de escala completa entre la derivación para realizar la medición. 
+(a) ¿Qué valor de resistencia en derivación se requiere para utilizar un medidor de 50 mV en una aplicación de medición de 50 A? 
+R=0.050V/50A =1kΩ
+(b) ¿Cuánta corriente circula por el medidor?
+I=50/10= 5 A
+
+39.- Determine la potencia total en cada uno de los circuitos de la figura 6-81.
+Circuito 1:
+P=(10)^2* 680 =68000W
+
+Circuito 2: 
+P=(10)^2*0.5250= 52.5 W
+
+41.- Encuentre los valores de las cantidades no especificadas en la figura 6-84.
+2=(0.2^2)*RT
+RT=2/0.04= 50Ω
+Vs=0.2*50= 10V
+0.75=10^2/R2
+R2=100/0.75=133.33Ω
+IR2=10/133.33=0.075 A
+R1=83.33
+
+![](tarea_3/ejer_41.png)
+
+43.- Si en el problema 40 se funde uno de los focos, ¿cuánta corriente circulará a través de cada foco restante? ¿Cuál será la corriente total?
+Vs=110V
+P_foco= 75W
+I=75/110= 0.68 A
+5*0.68= 3.40 A para el circuito total
+
+45.- ¿Qué está mal con el circuito de la figura 6-86?
+La medición de corriente total no es 7.82mA si no 10.86mA por lo tanto no da una corriente errónea
+
+47.- Desarrolle un procedimiento de prueba para revisar la tarjeta de circuito mostrada en la figura 6-87 y asegurarse de que no hay componentes abiertos. Debe realizar esta prueba sin quitar el componente de la tarjeta. Describa el procedimiento en un formato detallado paso a paso.
+Iniciamos midiendo el voltaje que circulo en las resistencias R1 y R2 para después medir la corriente que sale, poniendo el punto común en el pin 1 y medir hasta el pin 2, y la corriente seria del final de la resistencia dos con el pin 2.
+Para la siguiente estructura su voltaje seria desde el pin 4 hasta el pin 3 y la corriente desde el final de la resistencia 3 y al pin 3.
+Para la última estructura seria de medir el voltaje desde el pin 5 al pin 6,  y su corriente desde el final de la resistencia 8 al pin 6.
+
+49. Para el circuito mostrado en la figura 6-88, determine la resistencia entre las siguientes puntas si existe un corto entre las puntas 3 y 4:
+(a) 1 y 2 
+Valor de resistencia= 0
+(b) 2 y 3 
+Es la suma de las resistencias R5, R6, R7, R8, R9, R10 de forma que estas están en paralelo.
+(c) 2 y 4 
+Su valor de resistencia es cero
+(d) 1 y 4
+Es la suma en paralelo de las resistencias R1, R2, R3, R4, R11, R12.
+
+![](tarea_3/ejer_49.png)
 
 
 
