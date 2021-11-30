@@ -261,6 +261,155 @@ V_T/(27/560 Vt)=(100%)/x
 x=(27*100%)/560=4.82%
 
 
+39. Determine el voltaje con respecto a tierra para las salidas A, B y C en la figura 5-85(a)
+ 
+![](tarea_3/ejer_39.png)
+
+I=V/R=15/18,9KΩ= 0,8mA
+Punto A 
+V=I*R=0,8mA*18,9KΩ= 15V
+Punto B
+V=I*R=0,8mA*13,3KΩ=10,6V
+Punto C
+V=I*R=0,8mA*3,3KΩ=6,63V
+*41. ¿Cuál es el voltaje a través de cada resistor mostrado en la figura 5-86? R es el resistor de valor más bajo, y todos los demás resistores son múltiplos de dicho valor como se indica.
+ 
+![](tarea_3/ejer_41_c.png)
+
+90V=X+2X+3X+4X+5X
+90V=X (1+2+3+4+5)
+90V/15=X
+X=6
+VR1=6V
+VR2=12V
+VR3=18V
+VR4=24V
+VR5=30V
+
+43. Si hay 10 V a través de R1 en la figura 5-88, ¿cuál es el voltaje en cada uno de los demás resistores?
+
+![](tarea_3/ejer_43_c.png)
+
+
+I=V/R= 10V/5,6KΩ= 1,78mA
+VR2=I*R=1,78mA*1KΩ=1,78V
+VR3= I*R=1,78mA*560Ω= 996,8mV=0,9968V=1V
+VR4= I*R=1,78mA*10KΩ=17,8v
+*45. Diseñe un divisor de voltaje variable para producir un voltaje de salida ajustable desde un mínimo de 10 V hasta un máximo de 100 V dentro del 1% con una fuente de 1 a 120 V. El voltaje máximo debe ocurrir en el ajuste de resistencia máxima del potenciómetro, y el voltaje mínimo debe ocurrir en el ajuste de resistencia mínima (cero). La corriente tiene que ser de 10 mA.
+
+
+![](tarea_3/ejer_45_c.png)
+
+47. ¿Cuál es la potencia total en el circuito de la figura 5-88? Use los resultados del problema 43.
+
+	
+![](tarea_3/ejer_47_c.png)
+
+
+I= 1,78mA
+V= 10 V + 1,78V + 1V + 17,8V = 30,58V
+P=V*I= 1,78mA * 30,58V = 54,5mW
+49. Encuentre RT en la figura 5-89.
+
+![](tarea_3/ejer_49_c.png)
+	
+ 
+VR1=I*(R1)
+I=VR1/R1=12V/5,6MΩ=2,14µA
+R2=VR2/I=4,8V/2,14µA =2242990,654Ω
+P=VR3*I
+VR3=21,5µW/2,14µA =10,04V
+R3=VR3/I=10,04V/2,14µA = 4691588,785Ω
+RT=R1+R2+R3=5,6MΩ+2242990,654Ω +4691588,785Ω =12.5 MΩ
+51. En la figura 5-90, determine el voltaje en cada punto con respecto a tierra.
+
+
+
+![](tarea_3/ejer_51_c.png)
+
+
+I=V/R=100V/(5,6KΩ+5,6KΩ+1KΩ+1KΩ) =100V/13,2KΩ=7,57mA
+VA=7,57mA*(5,6KΩ+5,6KΩ+1KΩ+1KΩ) =100V
+VB=7,57mA*(5,6KΩ+1KΩ+1KΩ) =7,57mA*7,6KΩ=57.5V
+VC=7,57mA*(1KΩ+1KΩ) =7,57mA*2KΩ=15,14V
+VD=7,57mA*(1KΩ) =7,57V
+53. En la figura 5-91, determine el voltaje en cada punto con respecto a tierra.
+
+![](tarea_3/ejer_53_c.png)
+
+V=15V-9V=6V
+RT=56KΩ+560KΩ+100KΩ+1MΩ+100KΩ=1816000Ω=1,816MΩ
+I=V/R=6V/1,816MΩ=3,31µA
+VA=(3,31µA) *(560KΩ+100KΩ+1MΩ+100KΩ) =5,8256V+9V=14,82V
+VB=(3,31µA) *(100KΩ+1MΩ+100KΩ) =3,972V+9V=12,97V
+VC=(3,31µA) *(1MΩ+100KΩ) =3,63V+9V=12,63V
+VD=(3,31µA) *(100KΩ) =0,33V+9V=9,33V
+55. Observe los medidores de la figura 5-92 y determine los tipos de fallas ocurridos en los circuitos y qué componentes fallaron
+
+![](tarea_3/ejer_55_c.png)
+
+A)	Podríamos decir que el positivo de la fuente de alimentación esta directamente conectado a tierra por lo cual los electrones buscan el camino más fácil por ende no atraviesan por todo el circuito.  
+B)	De igual manera logramos observar que esta directamente el positivo colocado a tierra además logramos ver en el multímetro un corto circuito ya que no marca el voltaje correcto.  
+57. La tabla 5-1 muestra los resultados de mediciones de resistencia efectuadas en la tarjeta de circuito impreso que aparece en la figura 5-93. ¿Son correctos estos resultados? Si no, identifique los posibles problemas.
+ 
+
+
+![](tarea_3/ejer_57_c.png)
+
+
+
+Logramos observar que los circuitos posiblemente algunos completan su trayectoria en serie por los cual no puede dar una medida como es el caso de los bornes con una equivalencia numérica en la tabla. 
+*59. Al examinar la tarjeta de circuito impreso de la figura 5-93, se miden 17.83 kΩ entre las puntas 1 y 2. Asimismo, 13.6 kΩ entre las puntas 2 y 4. ¿Indica esto un problema en la tarjeta de circuito impreso? De ser así, identifíquelo
+Logramos observar que el camino 1 termina en el camino 4 lo cual podremos decir que estos se cruzan y estaría provocando una toma de medida incorrecta.
+Capítulo 6
+1. Muestre cómo conectar los resistores de la figura 6-65(a) en paralelo entre las terminales de una batería
+
+
+
+
+![](tarea_3/ejer_1_c.png)
+
+
+
+
+*3. Identifique los grupos de resistores que están en paralelo en la tarjeta de circuito impreso de doble cara mostrada en la figura 6-66.
+
+
+
+![](tarea_3/ejer_3_c.png)
+
+
+
+1) R1, R2, R5, R9, R10, y R12
+2) R4, R6, R7, y R8
+3) R3 y R11
+5. El voltaje de fuente en la figura 6-67 es de 100 V. ¿Cuánto voltaje lee cada uno de los medidores?
+
+![](tarea_3/ejer_5_c.png)
+
+Todas las resistencias se encuentran en paralelo por lo que los medidores de voltaje marcan 100v
+7. ¿Cuál es el voltaje entre los extremos de cada resistor incluido en la figura 6-68 para cada posición del interruptor?
+
+![](tarea_3/ejer_7_c.png)
+
+VA=15V Ya que la R1 y R4 están en paralelo
+VB=15V Ya que la R1 y R3 están en paralelo (si la posición del interruptor está en b)
+VC=15V Ya que la R1 y R2 están en paralelo (si la posición del interruptor está en c)
+9. Se leen las siguientes corrientes en la misma dirección en un circuito de tres ramas en paralelo: 250 mA, 300 mA y 800 mA. ¿Cuál es el valor de la corriente que llega a la unión de las tres ramas?
+IENTRADA=ISALIDA
+IENTRADA= 250mA+300mA+800mA=1350mA= 1,35 A
+11. En el circuito de la figura 6-69, determine la resistencia en R2, R3 y R4.
+
+![](tarea_3/ejer_11_c.png)
+
+5,03mA=1mA+2,14mA+0,470mA+I4, I4=1,42mA
+VR1+VR2=0, (2,14mA-1mA)47Ω+(2,14mA-0,470mA) R2=0, R2=22Ω
+VR2+VR3=0, (0,470mA-2,14mA) 22Ω +(0,470mA-1,42mA) R3=0, R3= 100Ω
+VR3+VR4=0, (I4-I3) 100Ω+I4*R4=0, (1,42mA-0,470mA) 100Ω+1,42mA*R4=0, R4=33Ω
+* 13. La resistencia total de un circuito en paralelo es de 25Ω. ¿Cuál es la corriente a través de un resistor de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA?
+RTOTAL=25Ω
+Ix =(RT/RX) IT, Ix=(25Ω/220Ω) 100 mA, Ix=0,0113A
+I=11.4 mA
 
 
 
