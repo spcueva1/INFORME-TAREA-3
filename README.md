@@ -86,7 +86,6 @@ La resistencia total del circuito es igual a la inversa de la suma de las invers
 Fuentes de corriente en paralelo 
 La corriente total producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes de corriente individuales. La suma algebraica implica que se debe considerar la dirección de la corriente cuando se combinan las fuentes en paralelo.
  
-![](tarea_3/Re_8.png)
  
 IT = 1 A + 2 A + 2 A = 5 A
 IT = 2 A + 2 A - 1 A = 3 A
@@ -107,32 +106,39 @@ para calcular la potencia total:
 SECCIÓN 5–1 Resistores en serie
 1. Conecte en serie cada juego de resistores mostrado en la figura 5-67 entre los puntos A y B.
  
-   
+![](tarea_3/ejer_1.png)
+
 3. Determine la resistencia nominal presente entre las puntas 1 y 8 del circuito de la figura 5-68.
  
 R_T=R_13+R_7+R_14+R_16
 R_T=170Ω
 Esto es porque todas las resistencias están conectadas en serie, es decir, que sus terminales están conectados uno a continuación del otro.
 
-
+![](tarea_3/ejer_3.png)
 
 
 5. En la tarjeta de circuito impreso de doble cara mostrada en la figura 5-69, identifique cada grupo de resistores
 en serie. Observe que muchas de las interconexiones de la tarjeta van de la cara anterior a la
 cara posterior.
  
- 
+![](tarea_3/ejer_5.png)
+
+![](tarea_3/ejer_5.1.png)
 
 SECCIÓN 5–2 Corriente en un circuito en serie
 7. La corriente suministrada por la fuente en la figura 5-70 es de 5 mA ¿Cuánta corriente indica cada miliamperímetro
 localizado en el circuito?
- 
+
+![](tarea_3/ejer_7.png)
+
 Muestra un valor de 5mA, porque están colocados en la dirección correcta en la cual avanzan los electrones.
 
 9. Con baterías de 1.5 V, un interruptor, y tres lámparas, disponga un circuito para aplicar 4.5 V a través
 de cualquier lámpara, de dos lámparas en serie, o de tres lámparas en serie con un solo interruptor de
 control. Trace el diagrama esquemático.
- 
+
+![](tarea_3/ejer_9.png)
+
 SECCIÓN 5–3 Resistencia total en serie
 11. Encuentre la resistencia total de los siguientes grupos de resistores en serie:
 a) 560 Ω y 1000 Ω 
@@ -147,18 +153,24 @@ Rt = (1000 +470+1+2200) kΩ = 3671 k Ω
 13. ¿Cuál es la resistencia total de doce resistores de 5.6 k Ω dispuestos en serie?
 Rt = 12(5.6 k Ω)=67.2 k Ω
 15. Si en la figura 5-72 la resistencia total es de 17.4 k Ω, ¿cuál es el valor de R5?
- 
+
+![](tarea_3/ejer_15.png)
+
 Rt = R1+R2+R3+R4+R5
 17.4 k Ω = 5.6 k Ω + 1 k Ω + 2.2 k Ω + 4.7 k Ω + R5
 R5 = (17.4-5.6-1-2.2-4.7) k Ω
 R5 = 3.9 k Ω
 17. En la figura 5-71, encuentre la resistencia total si los tres circuitos están conectados en serie.
- 
+
+![](tarea_3/ejer_17.png)
+
 Rt = (1+5.6+2.2+0.0047+0.01+0.012+0.001+1000+560+5600+680+10000) k Ω
 Rt= 17848.82 k Ω
 SECCIÓN 5–4 Aplicación de la ley de Ohm
 19. ¿Cuál es la corriente presente en cada circuito de la figura 5-74?
- 
+
+![](tarea_3/ejer_19.png)
+
 a) I=V/Rt=(5.5 V)/(2.2+5.6+1)KΩ=0.625 mA
 b) I=V/Rt=(16 V)/(1000+2200+560)KΩ=4.25*10^(-6)  A=4.25 uA
 
@@ -172,7 +184,9 @@ c) P=〖Vs〗^2/Rt=〖(48 V)〗^2/1410Ω=1.63 W
 
 
 23. ¿Cuál es el valor de cada resistor mostrado en la figura 5-75?
- 
+
+![](tarea_3/ejer_23.png)
+
 R1=(21.7 V)/(65.8 mA)=329.78 Ω
 R2=(14.5 V)/(65.8 mA)=220.36 Ω
 R3=(6.58 V)/(65.8 mA)=100 Ω
@@ -181,7 +195,9 @@ R4=(30.9 V)/(65.8 mA)=469.6 Ω
 (a) ¿Cuál es la resistencia de R4?
 (b) ¿Cuál deberá ser la lectura del medidor en las posiciones B, C y D del interruptor?
 (c) ¿Se fundirá un fusible de 1⁄4 A en cualquier posición del interruptor?
- 
+
+![](tarea_3/ejer_25.png)
+
 a) R4=Rt-R1-R2-R3
 R4=(12 V)/(7.84 mA)-220Ω-470Ω-510Ω
 R4=330.61 Ω
@@ -198,7 +214,9 @@ total?
 Vt = 5 V+9 V = 14 V
 
 29. Determine el voltaje de fuente total en cada circuito de la figura 5-79.
- 
+
+![](tarea_3/ejer_29.png)
+
 a) Las fuentes están conectadas hacia la misma polaridad,por lo tanto:
 Vt=(10+5+8)V=23 V
 b) La fuente de 25 V está conectada hacia polaridad diferente,por lo tanto:
@@ -211,12 +229,16 @@ Vt=V1+V2+V3+V4+V5
 V5=Vt-V1-V2-V3-V4
 V5=(20-1.5-5.5-3-6)V=4V
 33. En el circuito de la figura 5-81, determine la resistencia de R4.
- 
+
+![](tarea_3/ejer_33.png)
+
 (5.4 V)/(27 )=(4.4 V)/R4
 R4=(27Ω*4.4 V)/(5.4 V)=22 Ω
 35. Determine el voltaje a través de R5 para cada una de las posiciones del interruptor de la figura 5-83. La
 corriente en cada posición es como sigue: A, 3.35 mA; B, 3.73 mA; C, 4.50 mA; D, 6.00 mA.
- 
+
+![](tarea_3/ejer_35.png)
+
 3.35 mA=(18 V)/(1800+1000+820+560+R5)Ω
 3.35*10^(-3)  (4180)+3.35R5=18V
 3.35*10^(-3)  R5=4
