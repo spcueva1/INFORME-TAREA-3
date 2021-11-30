@@ -578,6 +578,7 @@ Es la suma en paralelo de las resistencias R1, R2, R3, R4, R11, R12.
 
 4)Video
 
+https://youtu.be/LenOVnSkxM8
 
 5)Conclusiones
 
