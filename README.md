@@ -100,6 +100,11 @@ para calcular la potencia total:
  
 ![](tarea_3/Re_9.png)
 
+
+
+![](tarea_3/mapa_tarea3.png)
+
+
 3)Explicacion y resolucion de ejercicios.
 
 
