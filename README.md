@@ -46,10 +46,10 @@ I1 = 0,3714 A
 Evalúe el determinante característico como sigue:
 
 |(-1) (2)|  
-
+                 = -1*3 - (7*2) = -3 - 14 = -17
   (7) (3)|
   
- = -1*3 - (7*2) = -3 - 14 = -17
+
  
  
 Al resolver para I1 se obtiene:
