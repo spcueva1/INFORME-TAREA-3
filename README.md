@@ -1,4 +1,4 @@
-# INFORME-TAREA-3
+# INFORME-TAREA-2_2°P
 
 # 1) OBJETIVOS:
 
@@ -107,7 +107,30 @@ Para I2:
 
 Para I3:
 (2)(3)(-12)+(9)(-8)(10)-[(10)(10)(3)+(3)(9)(-12)] = - 72 + 720 - 300 + 324 = -632 / -374 = 1.89
+
  
+9. Resuelva las dos ecuaciones simultáneas del problema 1 con su calculadora.
+
+100 I1 + 50 I2 = 30 
+75 I1 + 90 I2 = 15
+I1 = X
+I2 = Y
+X = 0,3714 A
+Y = -0,1428 A
+I1 = 0,3714 A
+I2 = -0,1428 A
+ 
+11. Escriba la ecuación de la corriente de Kirchhoff para la asignación de corriente mostrada en el nodo A
+en la figura 9-26
+
+I1 = I2 + I3
+
+13. Determine la caída de voltaje entre los extremos de cada resistor mostrado en la figura 9-26 e indique
+la polaridad real.
+
+V1 = 5.66 V, V2 = 6.33 V, V3 = 325 mV
+
+
 # 4)Video
 
 https://youtu.be/LenOVnSkxM8
